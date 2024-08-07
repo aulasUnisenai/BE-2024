@@ -1,0 +1,14 @@
+Criar diretório 
+mkdir nomeDiretorio
+
+Abrir o diretório
+cd nomeDiretorio
+
+Inicializar um projeto
+npm init -y
+
+Instalar o Express
+npm install express
+
+Instalar o EJS
+npm install ejs
