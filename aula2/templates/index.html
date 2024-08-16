@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Lista de Disciplinas
+{% endblock %}
+
+{% block content %}
+    <h1 class="mt-4">Lista de Disciplinas</h1>
+    <ul class="list-group mt-4">
+        {% for disciplina in disciplinas %}
+        <li class="list-group-item">
+            <!-- Exibe o nome da disciplina, carga horária e professor -->
+            {{ disciplina.nome }} ({{ disciplina.carga_horaria }} horas) - Prof. {{ disciplina.professor }}
+            <!-- Link para a página de edição da disciplina -->
+            <a href="{{ url_for('edit_disciplina', id=disciplina.id) }}" class="btn btn-sm btn-primary ml-2">Editar</a>
+            <!-- Link para a página de confirmação de exclusão da disciplina -->
+            <a href="{{ url_for('delete_disciplina', id=disciplina.id) }}" class="btn btn-sm btn-danger ml-2">Excluir</a>
+        </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
