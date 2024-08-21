@@ -1,0 +1,394 @@
+[
+    {
+        "nome": "The Witcher 3: Wild Hunt",
+        "plataforma": "PC",
+        "genero": "RPG",
+        "desenvolvedor": "CD Projekt Red",
+        "ano_lancamento": 2015,
+        "avaliacao": 9.5
+    },
+    {
+        "nome": "Red Dead Redemption 2",
+        "plataforma": "PlayStation 4",
+        "genero": "Aventura",
+        "desenvolvedor": "Rockstar Games",
+        "ano_lancamento": 2018,
+        "avaliacao": 9.7
+    },
+    {
+        "nome": "Cyberpunk 2077",
+        "plataforma": "PC",
+        "genero": "RPG",
+        "desenvolvedor": "CD Projekt Red",
+        "ano_lancamento": 2020,
+        "avaliacao": 7.8
+    },
+    {
+        "nome": "God of War",
+        "plataforma": "PlayStation 4",
+        "genero": "Ação",
+        "desenvolvedor": "Santa Monica Studio",
+        "ano_lancamento": 2018,
+        "avaliacao": 9.8
+    },
+    {
+        "nome": "Horizon Zero Dawn",
+        "plataforma": "PlayStation 4",
+        "genero": "Aventura",
+        "desenvolvedor": "Guerrilla Games",
+        "ano_lancamento": 2017,
+        "avaliacao": 9.0
+    },
+    {
+        "nome": "The Last of Us Part II",
+        "plataforma": "PlayStation 4",
+        "genero": "Aventura",
+        "desenvolvedor": "Naughty Dog",
+        "ano_lancamento": 2020,
+        "avaliacao": 9.3
+    },
+    {
+        "nome": "Ghost of Tsushima",
+        "plataforma": "PlayStation 4",
+        "genero": "Aventura",
+        "desenvolvedor": "Sucker Punch",
+        "ano_lancamento": 2020,
+        "avaliacao": 9.2
+    },
+    {
+        "nome": "Assassin's Creed Valhalla",
+        "plataforma": "PC",
+        "genero": "Aventura",
+        "desenvolvedor": "Ubisoft Montreal",
+        "ano_lancamento": 2020,
+        "avaliacao": 8.5
+    },
+    {
+        "nome": "Genshin Impact",
+        "plataforma": "PC",
+        "genero": "RPG",
+        "desenvolvedor": "miHoYo",
+        "ano_lancamento": 2020,
+        "avaliacao": 8.7
+    },
+    {
+        "nome": "Final Fantasy VII Remake",
+        "plataforma": "PlayStation 4",
+        "genero": "RPG",
+        "desenvolvedor": "Square Enix",
+        "ano_lancamento": 2020,
+        "avaliacao": 8.9
+    },
+    {
+        "nome": "Call of Duty: Warzone",
+        "plataforma": "PC",
+        "genero": "FPS",
+        "desenvolvedor": "Infinity Ward",
+        "ano_lancamento": 2020,
+        "avaliacao": 8.3
+    },
+    {
+        "nome": "Doom Eternal",
+        "plataforma": "PC",
+        "genero": "FPS",
+        "desenvolvedor": "id Software",
+        "ano_lancamento": 2020,
+        "avaliacao": 9.0
+    },
+    {
+        "nome": "Apex Legends",
+        "plataforma": "PC",
+        "genero": "FPS",
+        "desenvolvedor": "Respawn Entertainment",
+        "ano_lancamento": 2019,
+        "avaliacao": 8.7
+    },
+    {
+        "nome": "Overwatch",
+        "plataforma": "PC",
+        "genero": "FPS",
+        "desenvolvedor": "Blizzard Entertainment",
+        "ano_lancamento": 2016,
+        "avaliacao": 9.4
+    },
+    {
+        "nome": "Fortnite",
+        "plataforma": "PC",
+        "genero": "Battle Royale",
+        "desenvolvedor": "Epic Games",
+        "ano_lancamento": 2017,
+        "avaliacao": 8.0
+    },
+    {
+        "nome": "League of Legends",
+        "plataforma": "PC",
+        "genero": "MOBA",
+        "desenvolvedor": "Riot Games",
+        "ano_lancamento": 2009,
+        "avaliacao": 8.8
+    },
+    {
+        "nome": "Valorant",
+        "plataforma": "PC",
+        "genero": "FPS",
+        "desenvolvedor": "Riot Games",
+        "ano_lancamento": 2020,
+        "avaliacao": 8.5
+    },
+    {
+        "nome": "Minecraft",
+        "plataforma": "PC",
+        "genero": "Sandbox",
+        "desenvolvedor": "Mojang",
+        "ano_lancamento": 2011,
+        "avaliacao": 9.5
+    },
+    {
+        "nome": "Among Us",
+        "plataforma": "PC",
+        "genero": "Party",
+        "desenvolvedor": "InnerSloth",
+        "ano_lancamento": 2018,
+        "avaliacao": 7.5
+    },
+    {
+        "nome": "Fall Guys",
+        "plataforma": "PC",
+        "genero": "Party",
+        "desenvolvedor": "Mediatonic",
+        "ano_lancamento": 2020,
+        "avaliacao": 7.9
+    },
+    {
+        "nome": "PUBG",
+        "plataforma": "PC",
+        "genero": "Battle Royale",
+        "desenvolvedor": "PUBG Corporation",
+        "ano_lancamento": 2017,
+        "avaliacao": 8.2
+    },
+    {
+        "nome": "Destiny 2",
+        "plataforma": "PC",
+        "genero": "FPS",
+        "desenvolvedor": "Bungie",
+        "ano_lancamento": 2017,
+        "avaliacao": 8.6
+    },
+    {
+        "nome": "The Elder Scrolls V: Skyrim",
+        "plataforma": "PC",
+        "genero": "RPG",
+        "desenvolvedor": "Bethesda Game Studios",
+        "ano_lancamento": 2011,
+        "avaliacao": 9.3
+    },
+    {
+        "nome": "Dark Souls III",
+        "plataforma": "PC",
+        "genero": "RPG",
+        "desenvolvedor": "FromSoftware",
+        "ano_lancamento": 2016,
+        "avaliacao": 9.1
+    },
+    {
+        "nome": "Sekiro: Shadows Die Twice",
+        "plataforma": "PC",
+        "genero": "Ação",
+        "desenvolvedor": "FromSoftware",
+        "ano_lancamento": 2019,
+        "avaliacao": 9.2
+    },
+    {
+        "nome": "Bloodborne",
+        "plataforma": "PlayStation 4",
+        "genero": "RPG",
+        "desenvolvedor": "FromSoftware",
+        "ano_lancamento": 2015,
+        "avaliacao": 9.1
+    },
+    {
+        "nome": "Spider-Man",
+        "plataforma": "PlayStation 4",
+        "genero": "Ação",
+        "desenvolvedor": "Insomniac Games",
+        "ano_lancamento": 2018,
+        "avaliacao": 9.0
+    },
+    {
+        "nome": "Resident Evil 2",
+        "plataforma": "PC",
+        "genero": "Horror",
+        "desenvolvedor": "Capcom",
+        "ano_lancamento": 2019,
+        "avaliacao": 8.9
+    },
+    {
+        "nome": "Resident Evil Village",
+        "plataforma": "PC",
+        "genero": "Horror",
+        "desenvolvedor": "Capcom",
+        "ano_lancamento": 2021,
+        "avaliacao": 8.7
+    },
+    {
+        "nome": "Devil May Cry 5",
+        "plataforma": "PC",
+        "genero": "Ação",
+        "desenvolvedor": "Capcom",
+        "ano_lancamento": 2019,
+        "avaliacao": 8.8
+    },
+    {
+        "nome": "Monster Hunter: World",
+        "plataforma": "PC",
+        "genero": "RPG",
+        "desenvolvedor": "Capcom",
+        "ano_lancamento": 2018,
+        "avaliacao": 9.0
+    },
+    {
+        "nome": "Nioh 2",
+        "plataforma": "PC",
+        "genero": "RPG",
+        "desenvolvedor": "Team Ninja",
+        "ano_lancamento": 2020,
+        "avaliacao": 8.6
+    },
+    {
+        "nome": "Hades",
+        "plataforma": "PC",
+        "genero": "Roguelike",
+        "desenvolvedor": "Supergiant Games",
+        "ano_lancamento": 2020,
+        "avaliacao": 9.3
+    },
+    {
+        "nome": "Celeste",
+        "plataforma": "PC",
+        "genero": "Plataforma",
+        "desenvolvedor": "Matt Makes Games",
+        "ano_lancamento": 2018,
+        "avaliacao": 9.0
+    },
+    {
+        "nome": "Hollow Knight",
+        "plataforma": "PC",
+        "genero": "Metroidvania",
+        "desenvolvedor": "Team Cherry",
+        "ano_lancamento": 2017,
+        "avaliacao": 9.4
+    },
+    {
+        "nome": "Cuphead",
+        "plataforma": "PC",
+        "genero": "Plataforma",
+        "desenvolvedor": "Studio MDHR",
+        "ano_lancamento": 2017,
+        "avaliacao": 8.8
+    },
+    {
+        "nome": "Stardew Valley",
+        "plataforma": "PC",
+        "genero": "Simulação",
+        "desenvolvedor": "ConcernedApe",
+        "ano_lancamento": 2016,
+        "avaliacao": 9.3
+    },
+    {
+        "nome": "Terraria",
+        "plataforma": "PC",
+        "genero": "Sandbox",
+        "desenvolvedor": "Re-Logic",
+        "ano_lancamento": 2011,
+        "avaliacao": 9.1
+    },
+    {
+        "nome": "Animal Crossing: New Horizons",
+        "plataforma": "Nintendo Switch",
+        "genero": "Simulação",
+        "desenvolvedor": "Nintendo",
+        "ano_lancamento": 2020,
+        "avaliacao": 9.0
+    },
+    {
+        "nome": "Super Mario Odyssey",
+        "plataforma": "Nintendo Switch",
+        "genero": "Plataforma",
+        "desenvolvedor": "Nintendo",
+        "ano_lancamento": 2017,
+        "avaliacao": 9.7
+    },
+    {
+        "nome": "The Legend of Zelda: Breath of the Wild",
+        "plataforma": "Nintendo Switch",
+        "genero": "Aventura",
+        "desenvolvedor": "Nintendo",
+        "ano_lancamento": 2017,
+        "avaliacao": 9.8
+    },
+    {
+        "nome": "Fire Emblem: Three Houses",
+        "plataforma": "Nintendo Switch",
+        "genero": "RPG",
+        "desenvolvedor": "Intelligent Systems",
+        "ano_lancamento": 2019,
+        "avaliacao": 9.0
+    },
+    {
+        "nome": "Splatoon 2",
+        "plataforma": "Nintendo Switch",
+        "genero": "FPS",
+        "desenvolvedor": "Nintendo",
+        "ano_lancamento": 2017,
+        "avaliacao": 8.5
+    },
+    {
+        "nome": "Bayonetta 2",
+        "plataforma": "Nintendo Switch",
+        "genero": "Ação",
+        "desenvolvedor": "PlatinumGames",
+        "ano_lancamento": 2018,
+        "avaliacao": 9.2
+    },
+    {
+        "nome": "Xenoblade Chronicles 2",
+        "plataforma": "Nintendo Switch",
+        "genero": "RPG",
+        "desenvolvedor": "Monolith Soft",
+        "ano_lancamento": 2017,
+        "avaliacao": 8.7
+    },
+    {
+        "nome": "Persona 5",
+        "plataforma": "PlayStation 4",
+        "genero": "RPG",
+        "desenvolvedor": "Atlus",
+        "ano_lancamento": 2016,
+        "avaliacao": 9.5
+    },
+    {
+        "nome": "NieR: Automata",
+        "plataforma": "PC",
+        "genero": "Ação",
+        "desenvolvedor": "PlatinumGames",
+        "ano_lancamento": 2017,
+        "avaliacao": 9.1
+    },
+    {
+        "nome": "Metal Gear Solid V: The Phantom Pain",
+        "plataforma": "PC",
+        "genero": "Ação",
+        "desenvolvedor": "Kojima Productions",
+        "ano_lancamento": 2015,
+        "avaliacao": 9.3
+    },
+    {
+        "nome": "Yakuza 0",
+        "plataforma": "PC",
+        "genero": "Ação",
+        "desenvolvedor": "Ryu Ga Gotoku Studio",
+        "ano_lancamento": 2015,
+        "avaliacao": 8.9
+    }
+]
