@@ -16,7 +16,7 @@ with open('config.json') as config_file:
 # Configurar credenciais e URI
 usuario = quote_plus(config['usuario'])
 senha = quote_plus(config['senha'])
-uri = "suaurl"
+uri = f"suaURI"
 
 # Conectar ao MongoDB
 cliente = MongoClient(uri, server_api=ServerApi('1'))
@@ -72,6 +72,67 @@ def consultar_json():
     except Exception as e:
         return jsonify({"erro": str(e)}), 500
 
+# Rota para atualizar documentos
+@app.route('/atualizar_json', methods =['PUT'])
+def atualizar_documento():
+    try:
+        # Verificar se um ID foi fornecido
+        id = request.args.get('id')
+        criterio = {}
+
+        if id:
+            if not ObjectId.is_valid(id):
+                return jsonify({"erro": "ID inválido"}), 400
+            criterio["_id"] = ObjectId(id)
+        else:
+            # Se não for fornecido um ID
+            criterio = request.json.get('criterio', {})
+        
+        # Obter os dados do corpo da requisição
+        dados_atualizados = request.json.get('dados_atualizados', {})
+        if not dados_atualizados:
+            return jsonify({"erro": "Nenhum dado fornecido para atualização"}), 400
+        
+        # Atualizar os documentos
+        resultado = colecao.update_many(criterio, {"$set":dados_atualizados})
+
+        if resultado.matched_count == 0:
+            return jsonify({"erro": "Nenhum documento encontrado com os critérios fornecidos"}), 404
+        
+        return jsonify({
+            "mensagem": "Documentos atualizados com sucesso!",
+            "documentos_atualizados": resultado.modified_count
+        }), 200
+    
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
+
+# Rota para deletar os documentos
+@app.route("/deletar_json", methods =["DELETE"])
+def deletar_json():
+    try:
+        id = request.args.get('id')
+        criterio = {}
+
+        if id:
+            if not ObjectId.is_valid(id):
+                return jsonify({"erro": "ID inválido"}), 400
+            criterio['_id'] = ObjectId(id)
+        
+        else:
+            criterio = request.json.get('criterio', {})
+
+        resultado = colecao.delete_many(criterio)
+
+        if resultado.deleted_count == 0:
+            return jsonify({"erro": "Nenhum documento encontrado com os critérios fornecidos"}), 404
+        
+        return  jsonify({
+            "mensagem": "Documentos deletados com sucesso",
+            "documentos_deletados": resultado.deleted_count
+        }), 200
+    except Exception as e:
+        return jsonify({"erro": str(e)}), 500
 
 # Iniciar a aplicação
 if __name__ == '__main__':
