@@ -1,11 +1,14 @@
+# Bibliotecas
 from flask import Flask, render_template, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 import requests
 
+# Configurações
 app = Flask(__name__, template_folder='templates')
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///pedidos.db'
 db = SQLAlchemy(app)
 
+# Classe pedido
 class Pedido(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     numero_pedido = db.Column(db.String(50), nullable=False)
@@ -40,7 +43,7 @@ def cadastrar():
     db.session.add(novo_pedido)
     db.session.commit()
 
-    # Envia dados do pedido para o webhook externo
+    # Enviar dados do pedido para o webhook externo
     payload = {
         'numero_pedido': numero_pedido,
         'nome_produto': nome_produto,
@@ -57,6 +60,7 @@ def cadastrar():
 
     return jsonify({'mensagem': 'Pedido cadastrado com sucesso.'}), 200
 
+# Iniciar a aplicação
 if __name__ == '__main__':
     with app.app_context():
         db.create_all()
