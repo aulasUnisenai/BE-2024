@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="card-title">Aluno Dashboard</h1>
+            </div>
+            <div class="card-body">
+                <p>Bem-vindo, {{ current_user.username }}!</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
