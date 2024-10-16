@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= disciplina ? 'Editar' : 'Adicionar' %> Disciplina</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1><%= disciplina ? 'Editar' : 'Adicionar' %> Disciplina</h1>
+        <form action="/add" method="post">
+            <input type="hidden" name="id" value="<%= disciplina ? disciplina.id : '' %>"> <!-- Campo oculto para o ID -->
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" value="<%= disciplina ? disciplina.nome : '' %>" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="carga_horaria">Carga Horária:</label>
+                <input type="number" name="carga_horaria" value="<%= disciplina ? disciplina.carga_horaria : '' %>" class="form-control" required min="0">
+            </div>
+            <div class="form-group">
+                <label for="professor">Professor:</label>
+                <input type="text" name="professor" value="<%= disciplina ? disciplina.professor : '' %>" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <%= disciplina ? 'Salvar' : 'Adicionar' %>
+            </button>
+        </form>
+
+        <a href="/" class="btn btn-secondary mt-2">Voltar para a lista</a>
+    </div>
+</body>
+</html>

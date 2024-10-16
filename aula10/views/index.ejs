@@ -1,0 +1,24 @@
+<h1>Disciplinas</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Carga Horária</th>
+            <th>Professor</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% disciplinas.forEach(disciplina => { %>
+            <tr>
+                <td><%= disciplina.nome %></td>
+                <td><%= disciplina.carga_horaria %></td>
+                <td><%= disciplina.professor %></td>
+                <td>
+                    <a href="/edit/<%= disciplina.id %>" class="btn btn-warning">Editar</a>
+                    <a href="/delete/<%= disciplina.id %>" class="btn btn-danger">Excluir</a>
+                </td>
+            </tr>
+        <% }) %>
+    </tbody>
+</table>

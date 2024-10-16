@@ -1,0 +1,11 @@
+* Iniciar um novo projeto
+	npm init -y
+
+* Instalar as bibliotecas:
+	npm install express
+	npm install sequelize 
+        npm install mariadb 
+        npm install body-parser 
+        npm install ejs
+        npm install express-ejs-layouts
+	

@@ -1,0 +1,27 @@
+<% title = disciplina ? 'Editar Disciplina' : 'Adicionar Disciplina' %>
+
+<h1 class="mt-4"><%= disciplina ? 'Editar' : 'Adicionar' %> Disciplina</h1>
+<!-- Formulário para adicionar ou editar uma disciplina -->
+<form action="<%= disciplina ? '/edit/' + disciplina.id : '/add' %>" method="post">
+    <!-- Campo para o nome da disciplina -->
+    <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" value="<%= disciplina ? disciplina.nome : '' %>" class="form-control">
+    </div>
+    <!-- Campo para a carga horária da disciplina -->
+    <div class="form-group">
+        <label for="carga_horaria">Carga Horária:</label>
+        <input type="number" name="carga_horaria" value="<%= disciplina ? disciplina.carga_horaria : '' %>" class="form-control" required min="0">
+    </div>
+    <!-- Campo para o nome do professor -->
+    <div class="form-group">
+        <label for="professor">Professor:</label>
+        <input type="text" name="professor" value="<%= disciplina ? disciplina.professor : '' %>" class="form-control" required>
+    </div>
+    <!-- Botão para enviar o formulário -->
+    <button type="submit" class="btn btn-primary">
+        <%= disciplina ? 'Salvar' : 'Adicionar' %>
+    </button>
+</form>
+<!-- Link para voltar à lista de disciplinas -->
+<a href="/" class="btn btn-secondary mt-2">Voltar para a lista</a>
