@@ -1,0 +1,112 @@
+[
+    {
+        "titulo": "My Beautiful Dark Twisted Fantasy",
+        "artista": "Kanye West",
+        "genero": "Hip-Hop",
+        "ano_lancamento": 2010,
+        "faixas": [
+            "Power",
+            "All of the Lights",
+            "Runaway"
+        ]
+    },
+    {
+        "titulo": "Blonde",
+        "artista": "Frank Ocean",
+        "genero": "Hip-Hop",
+        "ano_lancamento": 2016,
+        "faixas": [
+            "Nikes",
+            "Ivy",
+            "Nights"
+        ]
+    },
+    {
+        "titulo": "IGOR",
+        "artista": "Tyler, the Creator",
+        "genero": "Hip-Hop",
+        "ano_lancamento": 2019,
+        "faixas": [
+            "EARFQUAKE",
+            "I THINK",
+            "A BOY IS A GUN*"
+        ]
+    },
+    {
+        "titulo": "The Low End Theory",
+        "artista": "A Tribe Called Quest",
+        "genero": "Hip-Hop",
+        "ano_lancamento": 1991,
+        "faixas": [
+            "Scenario",
+            "Check the Rhime",
+            "Jazz (We've Got)"
+        ]
+    },
+    {
+        "titulo": "Illmatic",
+        "artista": "Nas",
+        "genero": "Hip-Hop",
+        "ano_lancamento": 1994,
+        "faixas": [
+            "N.Y. State of Mind",
+            "The World Is Yours",
+            "It Ain't Hard to Tell"
+        ]
+    },
+    {
+        "titulo": "Iowa",
+        "artista": "Slipknot",
+        "genero": "Rock",
+        "ano_lancamento": 2001,
+        "faixas": [
+            "People = Shit",
+            "Disasterpiece",
+            "Left Behind"
+        ]
+    },
+    {
+        "titulo": "Hybrid Theory",
+        "artista": "Linkin Park",
+        "genero": "Rock",
+        "ano_lancamento": 2000,
+        "faixas": [
+            "In the End",
+            "Crawling",
+            "One Step Closer"
+        ]
+    },
+    {
+        "titulo": "Nevermind",
+        "artista": "Nirvana",
+        "genero": "Rock",
+        "ano_lancamento": 1991,
+        "faixas": [
+            "Smells Like Teen Spirit",
+            "Come as You Are",
+            "Lithium"
+        ]
+    },
+    {
+        "titulo": "AM",
+        "artista": "Arctic Monkeys",
+        "genero": "Rock",
+        "ano_lancamento": 2013,
+        "faixas": [
+            "Do I Wanna Know?",
+            "R U Mine?",
+            "Why'd You Only Call Me When You're High?"
+        ]
+    },
+    {
+        "titulo": "Felicidade Instantânea",
+        "artista": "CPM 22",
+        "genero": "Rock",
+        "ano_lancamento": 2005,
+        "faixas": [
+            "Um Minuto para o Fim do Mundo",
+            "Irreversível",
+            "Park, Park"
+        ]
+    }
+]
