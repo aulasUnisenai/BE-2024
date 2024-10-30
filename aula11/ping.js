@@ -4,11 +4,11 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Escape o nome do usuário e a senha
-const usuario = encodeURIComponent('paulosermoreira');
-const senha = encodeURIComponent('teste@92');
+const usuario = encodeURIComponent('seuUsuario');
+const senha = encodeURIComponent('suaSenha');
 
 // URI de conexão
-const uri = `mongodb+srv://${usuario}:${senha}@cluster1.tjqkv.mongodb.net/?retryWrites=true&w=majority&appName=cluster1`;
+const uri = `suaURI + usuario + senha`;
 
 //Função para conectar ao MongoDB
 async function conectarMongoDB() {
