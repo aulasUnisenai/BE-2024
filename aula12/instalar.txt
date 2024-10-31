@@ -1,1 +1,5 @@
 npm install axios dotenv express mariadb redis sequelize
+
+inserir, no arquivo package.json:
+
+"type": "module",
