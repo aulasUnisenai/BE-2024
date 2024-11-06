@@ -1,0 +1,23 @@
+[
+    { "titulo": "Imagine", "artista": "John Lennon", "genero": "Rock", "humor": "Calmo" },
+    { "titulo": "Happy", "artista": "Pharrell Williams", "genero": "Pop", "humor": "Feliz" },
+    { "titulo": "Smells Like Teen Spirit", "artista": "Nirvana", "genero": "Grunge", "humor": "Energético" },
+    { "titulo": "Blue in Green", "artista": "Miles Davis", "genero": "Jazz", "humor": "Reflexivo" },
+    { "titulo": "Don't Stop Me Now", "artista": "Queen", "genero": "Rock", "humor": "Animado" },
+    { "titulo": "Billie Jean", "artista": "Michael Jackson", "genero": "Pop", "humor": "Energético" },
+    { "titulo": "All of Me", "artista": "John Legend", "genero": "R&B", "humor": "Romântico" },
+    { "titulo": "Lose Yourself", "artista": "Eminem", "genero": "Rap", "humor": "Motivador" },
+    { "titulo": "What a Wonderful World", "artista": "Louis Armstrong", "genero": "Jazz", "humor": "Calmo" },
+    { "titulo": "Back in Black", "artista": "AC/DC", "genero": "Rock", "humor": "Energético" },
+    { "titulo": "Hey Ya!", "artista": "OutKast", "genero": "Hip-Hop", "humor": "Animado" },
+    { "titulo": "Someone Like You", "artista": "Adele", "genero": "Pop", "humor": "Melancólico" },
+    { "titulo": "HUMBLE.", "artista": "Kendrick Lamar", "genero": "Rap", "humor": "Confiante" },
+    { "titulo": "A Day in the Life", "artista": "The Beatles", "genero": "Rock", "humor": "Reflexivo" },
+    { "titulo": "September", "artista": "Earth, Wind & Fire", "genero": "Disco", "humor": "Feliz" },
+    { "titulo": "Take Five", "artista": "Dave Brubeck", "genero": "Jazz", "humor": "Relaxante" },
+    { "titulo": "Rehab", "artista": "Amy Winehouse", "genero": "Soul", "humor": "Irônico" },
+    { "titulo": "Shake It Off", "artista": "Taylor Swift", "genero": "Pop", "humor": "Animado" },
+    { "titulo": "Clocks", "artista": "Coldplay", "genero": "Alternative", "humor": "Reflexivo" },
+    { "titulo": "Paint It Black", "artista": "The Rolling Stones", "genero": "Rock", "humor": "Sombrio" }
+  ]
+  
