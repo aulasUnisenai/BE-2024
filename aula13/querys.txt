@@ -1,0 +1,25 @@
+query {
+  recomendacoes(genero: "Rock", humor: "Energético") {
+    titulo
+    artista
+    genero
+    humor
+  }
+}
+
+query {
+  generosDisponiveis
+}
+
+query {
+  humoresDisponiveis
+}
+
+query {
+  recomendacoes {
+    titulo
+    artista
+    genero
+    humor
+  }
+}
