@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "nome": "Teclado Mecânico",
+    "categoria": "Periféricos",
+    "quantidade": 15,
+    "preco": 200
+  },
+  {
+    "id": "3",
+    "nome": "Mouse",
+    "categoria": "Periféricos",
+    "quantidade": 20,
+    "preco": 50
+  },
+  {
+    "id": "3",
+    "nome": "Mouse",
+    "categoria": "Periféricos",
+    "quantidade": 30,
+    "preco": 50
+  },
+  {
+    "id": "4",
+    "nome": "Headset",
+    "categoria": "Periféricos",
+    "quantidade": 30,
+    "preco": 50
+  }
+]

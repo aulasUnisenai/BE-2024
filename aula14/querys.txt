@@ -1,0 +1,36 @@
+query {
+  listarProdutos {
+    id
+    nome
+    categoria
+    quantidade
+    preco
+  }
+}
+
+mutation {
+  adicionarProduto(nome: "Mouse", categoria: "Periféricos", quantidade: 30, preco: 50.0) {
+    id
+    nome
+  }
+}
+
+mutation {
+  atualizarProduto(
+    id: "1",
+    nome: "Teclado Mecânico",
+    categoria: "Periféricos",
+    quantidade: 10,
+    preco: 200.0
+  ) {
+    id
+    nome
+    categoria
+    quantidade
+    preco
+  }
+}
+
+mutation {
+  removerProduto(id: "2")
+}
